@@ -7,7 +7,7 @@ const query = async (prompt: string, chatId: string, model: string) => {
       prompt,
       temperature: 0.9,
       top_p: 1,
-      max_tokens: 1000,
+      max_tokens: 400,
       frequency_penalty: 0,
       presence_penalty: 0,
     })
