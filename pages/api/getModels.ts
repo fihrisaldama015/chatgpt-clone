@@ -26,7 +26,6 @@ export default async function handler(
   // );
 
   const modelOptions = [
-    { label: "davinci", value: "davinci" },
     { label: "text-davinci-001", value: "text-davinci-001" },
     { label: "text-davinci-002", value: "text-davinci-002" },
     { label: "text-davinci-003", value: "text-davinci-003" },
