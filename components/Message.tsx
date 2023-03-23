@@ -11,7 +11,11 @@ function Message({ message }: MessageProps) {
     else return text;
   }
   return (
-    <div className={`py-5 ${isChatGPT ? "bg-gray-600/30" : ""} text-gray-300`}>
+    <div
+      className={`py-5 ${
+        isChatGPT ? "bg-gray-600/30 text-gray-300/90" : "text-gray-200"
+      } `}
+    >
       <p className="px-5 text-right text-xs text-gray-300/50 hidden md:block h-min">
         {message.user.name}
       </p>
